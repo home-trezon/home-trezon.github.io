@@ -1,209 +1,87 @@
-<html lang="en">
- <head>
+<html>
+<head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
    Trezor Suite (Official) | Desktop & Web Crypto Management
   </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
-  <style>
-   body {
-            font-family: 'Inter', sans-serif;
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
         }
-  </style>
- </head>
- <body class="bg-gray-50 text-gray-800">
-  <header class="bg-white shadow-sm">
-   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-    <div class="flex items-center space-x-4">
-     <img alt="Trezor Logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/sWZrOU4c5NozDZWvAdzIlAZSt6ZUS1TLe5aVfvcMdaIEvSjTA.jpg" width="40"/>
-     <nav class="space-x-4">
-      <a class="text-gray-600 hover:text-gray-800" href="#">
-       Products
-      </a>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
-       App
-      </a>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
-       Coins
-      </a>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
-       Learn
-      </a>
-     </nav>
-    </div>
-    <div class="flex items-center space-x-4">
-     <button class="text-gray-600 hover:text-gray-800">
-      🌐
-     </button>
-     <button class="text-gray-600 hover:text-gray-800">
-      Cart 0
-     </button>
-     <button class="bg-green-700 text-white px-4 py-2 rounded">
-      Connect My Trezor
-     </button>
-    </div>
-   </div>
-  </header>
-  <main class="container mx-auto px-4 py-12">
-   <section class="text-center mb-12">
-    <h1 class="text-4xl font-bold mb-4">
-     Take control of your
-     <span class="text-green-700">
-      crypto in Trezor Suite
-     </span>
-    </h1>
-    <p class="text-lg text-gray-600 mb-6">
-     Manage your assets in one app.
-    </p>
-    <div class="flex justify-center space-x-4 mb-4">
-     <button class="bg-green-700 text-white px-4 py-2 rounded">
-      Trezor Suite Web App Login
-     </button>
-     <button class="bg-gray-200 text-gray-800 px-4 py-2 rounded">
-      Download for Mobile App
-     </button>
-    </div>
-    <p class="text-sm text-gray-500">
-     Version: v23.8.1 • Signature • Signing key 2020 • Signing key 2021
-    </p>
-   </section>
-   <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-    <div class="bg-white p-6 rounded-lg shadow">
-     <h2 class="text-xl font-semibold mb-2">
-      Coin Management
-     </h2>
-     <p class="text-gray-600 mb-4">
-      Connect your hardware wallet with Trezor Suite.
-     </p>
-     <p class="text-gray-600 mb-4">
-      Send &amp; receive coins, track your portfolio, trade assets or pay for daily essentials directly from the app.
-     </p>
-     <img alt="Coin Management Interface" class="rounded" height="300" src="https://storage.googleapis.com/a1aa/image/hee3jeCUy8W3cIgH3VViXcyJOmtHpm3Yjngswfiwp1hV8KNOB.jpg" width="400"/>
-    </div>
-    <div class="bg-white p-6 rounded-lg shadow">
-     <h2 class="text-xl font-semibold mb-2">
-      Check &amp; Verify
-     </h2>
-     <p class="text-gray-600 mb-4">
-      No more second guessing.
-     </p>
-     <p class="text-gray-600 mb-4">
-      Every transaction on the app requires your explicit confirmation directly on your Trezor hardware wallet.
-     </p>
-     <img alt="Trezor Device" class="rounded" height="300" src="https://storage.googleapis.com/a1aa/image/KapYl8Mdn9ZdK1zdVAJpzdQKpqR6CodahEMnIzea6wglXpxJA.jpg" width="400"/>
-    </div>
-   </section>
-   <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-    <div class="bg-white p-6 rounded-lg shadow">
-     <h2 class="text-xl font-semibold mb-2">
-      Simple Setup &amp; Use
-     </h2>
-     <p class="text-gray-600 mb-4">
-      Set up within minutes.
-     </p>
-     <p class="text-gray-600 mb-4">
-      Grab your Trezor device, plug it in, open Trezor Suite, and let your crypto journey begin! Forget about the tech jargon, we speak your language.
-     </p>
-     <img alt="Setup Steps" class="rounded" height="300" src="https://storage.googleapis.com/a1aa/image/zs5Fvf4jmnXeLkBQBVOQtBKhtYHfHu1rqgwkDuRkYcfx8KNOB.jpg" width="400"/>
-    </div>
-    <div class="bg-white p-6 rounded-lg shadow">
-     <h2 class="text-xl font-semibold mb-2">
-      Get Boss-Level Security
-     </h2>
-     <p class="text-gray-600 mb-4">
-      Set up a hidden wallet.
-     </p>
-     <img alt="Security Interface" class="rounded" height="300" src="https://storage.googleapis.com/a1aa/image/QJBneyVDpVyTQ6eL3sCeQ5wxTflW1MftWE5D62bMFKJw5VacC.jpg" width="400"/>
-    </div>
-   </section>
-   <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-    <div class="bg-white p-6 rounded-lg shadow">
-     <h2 class="text-xl font-semibold mb-2">
-      Go Incognito with Coinjoin
-     </h2>
-     <p class="text-gray-600 mb-4">
-      Add a dash of privacy to your crypto transactions.
-     </p>
-     <img alt="Coinjoin Interface" class="rounded" height="300" src="https://storage.googleapis.com/a1aa/image/0HZ4fp5IKK11XaSFUX6JIO5L83Cwffx5HjnrI65gwuTSeKNOB.jpg" width="400"/>
-    </div>
-    <div class="bg-white p-6 rounded-lg shadow">
-     <h2 class="text-xl font-semibold mb-2">
-      Sync &amp; Track on Your Phone
-     </h2>
-     <p class="text-gray-600 mb-4">
-      Stay up to date with your portfolio using our mobile app.
-     </p>
-     <img alt="Mobile App Interface" class="rounded" height="300" src="https://storage.googleapis.com/a1aa/image/IdWpsDOT52LyNZv2TvT0phu6P7oo4gsmFL8kHkfcF3tjXpxJA.jpg" width="400"/>
-    </div>
-   </section>
-   <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-    <div class="bg-white p-6 rounded-lg shadow">
-     <h2 class="text-xl font-semibold mb-2">
-      Find the Best Deal
-     </h2>
-     <p class="text-gray-600 mb-4">
-      Compare exchanges, choose the best offer and trade.
-     </p>
-     <img alt="Best Deal Interface" class="rounded" height="300" src="https://storage.googleapis.com/a1aa/image/Y0G9kR1WISq6NFCQH3UYsKHEjky6Fsz8agFfYn9ZF4YkXpxJA.jpg" width="400"/>
-    </div>
-   </section>
-   <section class="text-center mb-12">
-    <h2 class="text-2xl font-semibold mb-4">
-     Wide range of security features inside Trezor Suite app
-    </h2>
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-     <div class="bg-white p-6 rounded-lg shadow">
-      <h3 class="text-lg font-semibold mb-2">
-       Sign &amp; Verify
-      </h3>
-      <p class="text-gray-600">
-       Sign &amp; Verify confirms ownership of specific addresses on your Trezor.
-      </p>
-     </div>
-     <div class="bg-white p-6 rounded-lg shadow">
-      <h3 class="text-lg font-semibold mb-2">
-       Coinjoin
-      </h3>
-      <p class="text-gray-600">
-       Coinjoin protects your identity with complex transaction anonymization.
-      </p>
-     </div>
-     <div class="bg-white p-6 rounded-lg shadow">
-      <h3 class="text-lg font-semibold mb-2">
-       Tor
-      </h3>
-      <p class="text-gray-600">
-       Tor is open source software that enables anonymous communication. Using Tor makes it more difficult to trace a user's internet activity.
-      </p>
-     </div>
-     <div class="bg-green-700 text-white p-6 rounded-lg shadow flex items-center justify-center">
-      <a class="text-lg font-semibold" href="#">
-       Discover all features
-       <i class="fas fa-arrow-right ml-2">
-       </i>
-      </a>
-     </div>
-    </div>
-   </section>
-   <section class="text-center mb-12">
-    <h2 class="text-2xl font-semibold mb-4">
-     Over 9 coins &amp; tokens supported natively.
-    </h2>
-    <div class="flex justify-center">
-     <input class="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/2" placeholder="Search Supported coins" type="text"/>
-    </div>
-   </section>
-  </main>
-  <footer class="bg-white py-6">
-   <div class="container mx-auto px-4 text-center">
-    <p class="text-gray-600">
-     © 2023 Trezor. All rights reserved.
-    </p>
-   </div>
-  </footer>
- </body>
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="flex items-center">
+                <div class="flex items-center">
+                    <i class="fas fa-lock text-2xl text-black"></i>
+                    <span class="ml-2 text-xl font-bold text-black">TREZOR</span>
+                </div>
+                <nav class="ml-10 space-x-4">
+                    <a href="#" class="text-gray-700 hover:text-black">Products <i class="fas fa-chevron-down text-xs"></i></a>
+                    <a href="#" class="text-gray-700 hover:text-black">App</a>
+                    <a href="#" class="text-gray-700 hover:text-black">Coins</a>
+                    <a href="#" class="text-gray-700 hover:text-black">Learn & Support <i class="fas fa-chevron-down text-xs"></i></a>
+                </nav>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-globe text-gray-700"></i>
+                    <i class="fas fa-chevron-down text-gray-700"></i>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-dollar-sign text-gray-700"></i>
+                    <i class="fas fa-chevron-down text-gray-700"></i>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-shopping-cart text-gray-700"></i>
+                    <span class="text-gray-700">0</span>
+                </div>
+                <a href="#" class="bg-green-700 text-white px-4 py-2 rounded-full">Get your Trezor</a>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto text-center py-20 px-6">
+        <h1 class="text-4xl font-bold text-black">Congratulations</h1>
+        <h2 class="text-4xl font-bold text-green-700">on getting your new Trezor</h2>
+        <p class="text-gray-700 mt-4">Setup & take control of your Trezor with our desktop app. Download Trezor Suite below.</p>
+        <div class="mt-8 flex justify-center space-x-4">
+            <button class="bg-green-700 text-white px-6 py-3 rounded-full flex items-center">
+                Download for desktop <i class="fas fa-chevron-down ml-2"></i>
+            </button>
+            <button class="bg-gray-200 text-gray-700 px-6 py-3 rounded-full">Trezor Suite for web</button>
+        </div>
+        <div class="mt-4 text-gray-500">
+            <span>Version: v24.8.3</span> · <span>Signature</span> · <span>Signing key 2020</span> · <span>Signing key 2021</span>
+        </div>
+        <div class="mt-12 text-left text-gray-700">
+            <p class="mb-4">The Trezor Suite app is your all-in-one solution for managing your cryptocurrency assets securely and efficiently. Designed with user experience in mind, Trezor Suite offers a seamless interface that allows you to easily navigate through your portfolio, execute transactions, and monitor your assets in real-time.</p>
+            <p class="mb-4">With Trezor Suite, you can take full control of your digital assets. The app supports a wide range of cryptocurrencies, ensuring that you can manage all your holdings in one place. Whether you are a seasoned investor or new to the world of cryptocurrencies, Trezor Suite provides the tools and features you need to stay on top of your investments.</p>
+            <p class="mb-4">Security is at the core of Trezor Suite. The app integrates advanced security measures to protect your assets from unauthorized access and potential threats. With features like two-factor authentication, encrypted backups, and secure transaction signing, you can have peace of mind knowing that your assets are safe.</p>
+            <p class="mb-4">In addition to its robust security features, Trezor Suite also offers a range of functionalities to enhance your experience. You can easily track the performance of your portfolio, set up price alerts, and access detailed transaction history. The app also provides educational resources and support to help you make informed decisions and stay updated with the latest trends in the cryptocurrency market.</p>
+            <p class="mb-4">Download Trezor Suite today and take the first step towards managing your cryptocurrency assets with confidence. Whether you choose the desktop version or the web version, Trezor Suite is designed to provide you with a secure, user-friendly, and comprehensive solution for all your cryptocurrency needs.</p>
+        </div>
+    </main>
+    <footer class="bg-gray-100 py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center">
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-700 hover:text-black">About</a>
+                    <a href="#" class="text-gray-700 hover:text-black">Blog</a>
+                    <a href="#" class="text-gray-700 hover:text-black">Contact</a>
+                    <a href="#" class="text-gray-700 hover:text-black">Privacy Policy</a>
+                    <a href="#" class="text-gray-700 hover:text-black">Terms of Service</a>
+                </div>
+                <div class="text-gray-700">
+                    &copy; 2023 Trezor. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
